@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "name": "iPhone 14 Pro Max",
+    "image": "https://images.unsplash.com/photo-1592286927505-1def25115558?w=300&h=300&fit=crop",
+    "price": 79999
+  },
+  {
+    "id": 2,
+    "name": "Laptop",
+    "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=300&h=300&fit=crop",
+    "price": 55999
+  },
+  {
+    "id": 3,
+    "name": "Headphones",
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=300&h=300&fit=crop",
+    "price": 2999
+  },
+  {
+    "id": 4,
+    "name": "Smartwatch",
+    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=300&h=300&fit=crop",
+    "price": 4999
+  },
+  {
+    "id": 5,
+    "name": "Camera",
+    "image": "https://picsum.photos/id/250/300/300",
+    "price": 45999
+  },
+  {
+    "id": 6,
+    "name": "Keyboard",
+    "image": "https://loremflickr.com/300/300/keyboard",
+    "price": 1499
+  },
+  {
+    "id": 7,
+    "name": "Mouse",
+    "image": "https://images.unsplash.com/photo-1527814050087-3793815479db?w=300&h=300&fit=crop",
+    "price": 799
+  },
+  {
+    "id": 8,
+    "name": "Monitor",
+    "image": "https://loremflickr.com/300/300/monitor",
+    "price": 12999
+  },
+  {
+    "id": 9,
+    "name": "Speaker",
+    "image": "https://loremflickr.com/300/300/speaker",
+    "price": 3499
+  },
+  {
+    "id": 10,
+    "name": "Tablet",
+    "image": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?w=300&h=300&fit=crop",
+    "price": 21999
+  },
+  {
+    "id": 11,
+    "name": "Printer",
+    "image": "https://picsum.photos/id/1040/300/300",
+    "price": 8999
+  },
+  {
+    "id": 12,
+    "name": "Router",
+    "image": "https://loremflickr.com/300/300/router",
+    "price": 1999
+  },
+  {
+    "id": 13,
+    "name": "Powerbank",
+    "image": "https://loremflickr.com/300/300/powerbank",
+    "price": 1299
+  },
+  {
+    "id": 14,
+    "name": "Pendrive",
+    "image": "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=300&h=300&fit=crop",
+    "price": 699
+  },
+  {
+    "id": 15,
+    "name": "Harddisk",
+    "image": "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=300&h=300&fit=crop",
+    "price": 5499
+  }
+]
