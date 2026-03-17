@@ -10,7 +10,9 @@ const app = express();
 
 // connect to MongoDB
 connectDB();
-
+app.get("/", (req, res) => {
+  res.send("API is running 🚀");
+});
 app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
