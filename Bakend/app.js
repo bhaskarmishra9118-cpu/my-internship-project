@@ -4,8 +4,12 @@ const express = require("express");
 const cors = require("cors");
 const productRoutes = require("./routes/productRoutes");
 const path = require("path");
+const connectDB = require('./db');
 
 const app = express();
+
+// connect to MongoDB
+connectDB();
 
 app.use(cors());
 app.use(express.json());
