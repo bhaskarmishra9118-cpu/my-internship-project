@@ -7,9 +7,9 @@ function App() {
   const [products, setProducts] = useState([]);
   const [cart, setCart] = useState([]);
   const [route, setRoute] = useState("home"); // 'home' or 'cart'
-ucts
+
 useEffect(() => {
-  fetch("https://my-internship-project.onrender.com/products")
+fetch(`${import.meta.env.VITE_API_URL}/api/products`)
     .then(res => res.json())
     .then(data => {
       console.log("DATA:", data); // 👈 
