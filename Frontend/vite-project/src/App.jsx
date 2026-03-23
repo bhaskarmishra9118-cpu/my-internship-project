@@ -7,13 +7,16 @@ function App() {
   const [products, setProducts] = useState([]);
   const [cart, setCart] = useState([]);
   const [route, setRoute] = useState("home"); // 'home' or 'cart'
-
-  useEffect(() => {
-    fetch("http://localhost:5000/products")
-      .then(res => res.json())
-      .then(data => setProducts(data))
-      .catch(err => console.log("API Error:", err));
-  }, []);
+ucts
+useEffect(() => {
+  fetch("https://my-internship-project.onrender.com/products")
+    .then(res => res.json())
+    .then(data => {
+      console.log("DATA:", data); // 👈 
+      setProducts(data);
+    })
+    .catch(err => console.log("API Error:", err));
+}, []);
 
   function addToCart(product) {
     setCart(prev => [...prev, product]);
